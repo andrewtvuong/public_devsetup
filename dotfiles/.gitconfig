@@ -1,0 +1,18 @@
+[user]
+    name = av
+    email = youremail
+
+[color]
+    ui = auto
+
+[core]
+    pager = less -FMRiX
+    autocrlf = input
+    excludesfile = ~/.gitignore
+
+[push]
+    default = simple
+
+[alias]
+    dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%C    reset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
