@@ -18,6 +18,7 @@ chsh -s $(which zsh)
 echo ".DS_Store" >> ~/.gitignore
 echo "node_modules/" >> ~/.gitignore
 git config --global core.excludesfile ~/.gitignore
+git config --global core.editor "vim"
 
 # Generate SSH key
 ssh-keygen -t ed25519
