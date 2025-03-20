@@ -65,6 +65,7 @@ echo "- Restart Nginx: sudo systemctl restart nginx"
 # Keep the Instance Clean periodically
 # sudo apt autoremove && sudo apt autoclean
 
+git config --global core.editor "vim"
 
 # Add SWAP	Prevents crashes under load
 # Build locally	Saves RAM
